@@ -47,6 +47,6 @@ def chat():
 def clear_chat():
     chat_history.clear()
     return render_template("index.html", response=None, chat_history=[])
-
+    
 if __name__ == "__main__":
-    app.rund(debug=True)
+    app.run(host="0.0.0.0", port=10000)

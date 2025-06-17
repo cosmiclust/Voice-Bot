@@ -9,4 +9,4 @@ However, one area I’d explore further is caching. Caching previous user querie
 | Send to ChatGPT | Python | openai |
 | Return response | Python | Flask |
 | Show response on screen | HTML | Returned by Flask |
-| Speak out loud in browser | JavaScript(Not my core skill , so I took reference to write scripy.js) | SpeechSynthesis API |
+| Speak out loud in browser | JavaScript(Not my core skill , so I took reference to write script.js) | SpeechSynthesis API |

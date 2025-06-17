@@ -21,8 +21,8 @@ function speak(text) {
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = getPreferredVoice();
-  utterance.rate = 1.2;    // 🔊 Slightly faster
-  utterance.pitch = 1.6;   // 💖 Higher pitch for cute/young tone
+  utterance.rate = 1.2;    
+  utterance.pitch = 1.6;   
   utterance.volume = 1.0;
 
   speechSynthesis.speak(utterance);
